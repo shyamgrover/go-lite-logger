@@ -1,11 +1,11 @@
 package logWriter
 
 import (
+	"github.com/shyamgrover/go-lite-logger/utils"
 	"log"
 	"os"
 	"sync"
 	"time"
-	"utils"
 )
 
 type Worker struct {

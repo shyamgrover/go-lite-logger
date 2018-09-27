@@ -1,12 +1,12 @@
 package logger
 
 import (
+	"github.com/shyamgrover/go-lite-logger/logWriter"
+	"github.com/shyamgrover/go-lite-logger/utils"
 	"log"
-	"logWriter"
 	"os"
 	"sync"
 	"sync/atomic"
-	"utils"
 )
 
 type Logger struct {
