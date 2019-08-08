@@ -5,4 +5,4 @@ A lite go logging component
 go get -v github.com/shyamgrover/go-lite-logger
 
 # Usage
-Check logTester.go
+See logTester.go
